@@ -5,7 +5,7 @@ This Java project was made using Intellij
 
 This project has used recusions, different loops, subclasses, interfaces, generics, custom exceptions, factorys.
 
-This project was designed and created using Test Driven Development
+This project was designed and created using Test Driven Development, SOLID principles and OOP
 
 Performance test results:
 
