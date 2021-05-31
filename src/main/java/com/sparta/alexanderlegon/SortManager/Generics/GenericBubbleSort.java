@@ -1,10 +1,6 @@
 package com.sparta.alexanderlegon.SortManager.Generics;
 
-import com.sparta.alexanderlegon.SortManager.Interfaces.Sorter;
-import com.sparta.alexanderlegon.SortManager.Printer.Printer;
-import java.util.List;
-
-public class GenericBubbleSort<T extends Comparable<? super T>> {
+public class GenericBubbleSort <T extends Comparable<? super T>>  {
 
     public T[] sortArray(T[] arrayToSort){
         bubbleSort(arrayToSort);
