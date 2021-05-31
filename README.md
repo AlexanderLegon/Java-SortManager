@@ -4,7 +4,8 @@ This is my Sorter Project, This code allows random generation of numbers or user
 This Java project was made using Intellij
 
 This project has used recusions, different loops, subclasses, interfaces, generics, custom exceptions, factorys.
-This project was designed using Test Driven Development
+
+This project was designed and created using Test Driven Development
 
 Performance test results:
 
