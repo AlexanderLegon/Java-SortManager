@@ -36,6 +36,6 @@ Press 1 for bubbleSort, Press 2 for MergeSort, Press 3 for Generic BubbleSort, P
 
 Selecting 1,2 or 3 will return the sorted array and then exit, however pressing 4 will give more options.
 
-These options will let you sort the array, ascending or descending, add values, list how many items there are, find the root value and find if a number is in the binary tree or quit the program.
+These options for the binary tree sorting will let you sort the array, ascending or descending, add values, list how many items there are, find the root value and find if a number is in the binary tree or quit the program.
 
 
