@@ -27,9 +27,9 @@ Average time to mergeSort 10000 : 1,359,110ns
 
 How to use: 
 
-When running the program respond true or false to get a random generated array - these contain no duplicates due to binary tree not accepting them
+When running the program respond true or false to get a random generated array - these contain no duplicates due to binary tree not accepting them.
 Enter how many elements you want in this array.
-If you selected true it will now generate an array and then list options to select
+If you selected true it will now generate an array and then list options to select.
 If you entered false you now have to enter a number for each element in the arraysize you want then list of a new set of options
 
 Press 1 for bubbleSort, Press 2 for MergeSort, Press 3 for Generic BubbleSort, Press 4 for Binary Tree
