@@ -3,7 +3,7 @@ This is my Sorter Project, This code allows random generation of numbers or user
 
 This Java project was made using Intellij
 
-This project has used recusions, different loops, subclasses, interfaces, generics, custom exceptions, factorys.
+This project has used recusions, different loops, subclasses, interfaces, generics, custom exceptions, factorys, MAVEN and JUNIT.
 
 This project was designed and created using Test Driven Development, SOLID principles and OOP
 
