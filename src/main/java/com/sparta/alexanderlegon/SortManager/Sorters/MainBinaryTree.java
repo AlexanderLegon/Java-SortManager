@@ -1,9 +1,9 @@
-package com.sparta.alexanderlegon.SortManager.Sorters;
+package com.sparta.alexanderlegon.SortManager.sorters;
 
-import com.sparta.alexanderlegon.SortManager.Exceptions.ChildNotFoundException;
-import com.sparta.alexanderlegon.SortManager.Exceptions.InputException;
-import com.sparta.alexanderlegon.SortManager.Interfaces.BinaryTree;
-import com.sparta.alexanderlegon.SortManager.Printer.Printer;
+import com.sparta.alexanderlegon.SortManager.exceptions.ChildNotFoundException;
+import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
+import com.sparta.alexanderlegon.SortManager.interfaces.BinaryTree;
+import com.sparta.alexanderlegon.SortManager.printer.Printer;
 
 public class MainBinaryTree implements BinaryTree {
 

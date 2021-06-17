@@ -1,12 +1,12 @@
 package com.sparta.alexanderlegon.SortManager;
 
-import com.sparta.alexanderlegon.SortManager.Exceptions.InputException;
-import com.sparta.alexanderlegon.SortManager.Generics.GenericBubbleSort;
-import com.sparta.alexanderlegon.SortManager.Interfaces.BinaryTree;
-import com.sparta.alexanderlegon.SortManager.Interfaces.Sorter;
-import com.sparta.alexanderlegon.SortManager.Sorters.BubbleSort;
-import com.sparta.alexanderlegon.SortManager.Sorters.MainBinaryTree;
-import com.sparta.alexanderlegon.SortManager.Sorters.MergeSort;
+import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
+import com.sparta.alexanderlegon.SortManager.generics.GenericBubbleSort;
+import com.sparta.alexanderlegon.SortManager.interfaces.BinaryTree;
+import com.sparta.alexanderlegon.SortManager.interfaces.Sorter;
+import com.sparta.alexanderlegon.SortManager.sorters.BubbleSort;
+import com.sparta.alexanderlegon.SortManager.sorters.MainBinaryTree;
+import com.sparta.alexanderlegon.SortManager.sorters.MergeSort;
 
 public class SortFactory {
 

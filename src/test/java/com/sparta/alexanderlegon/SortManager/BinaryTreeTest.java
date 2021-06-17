@@ -1,8 +1,8 @@
 package com.sparta.alexanderlegon.SortManager;
 
-import com.sparta.alexanderlegon.SortManager.Exceptions.ChildNotFoundException;
-import com.sparta.alexanderlegon.SortManager.Exceptions.InputException;
-import com.sparta.alexanderlegon.SortManager.Sorters.MainBinaryTree;
+import com.sparta.alexanderlegon.SortManager.exceptions.ChildNotFoundException;
+import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
+import com.sparta.alexanderlegon.SortManager.sorters.MainBinaryTree;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

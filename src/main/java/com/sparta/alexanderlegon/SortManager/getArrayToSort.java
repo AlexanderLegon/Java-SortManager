@@ -1,7 +1,7 @@
 package com.sparta.alexanderlegon.SortManager;
 
-import com.sparta.alexanderlegon.SortManager.Exceptions.InputException;
-import com.sparta.alexanderlegon.SortManager.Printer.Printer;
+import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
+import com.sparta.alexanderlegon.SortManager.printer.Printer;
 import java.util.Random;
 import java.util.Arrays;
 import java.util.Scanner;

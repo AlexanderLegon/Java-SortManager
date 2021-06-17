@@ -1,6 +1,6 @@
-package com.sparta.alexanderlegon.SortManager.Interfaces;
+package com.sparta.alexanderlegon.SortManager.interfaces;
 
-import com.sparta.alexanderlegon.SortManager.Exceptions.ChildNotFoundException;
+import com.sparta.alexanderlegon.SortManager.exceptions.ChildNotFoundException;
 
 //no dupes allowed
 //linked list value and 2 pointers left and right, if nothing pointer is null

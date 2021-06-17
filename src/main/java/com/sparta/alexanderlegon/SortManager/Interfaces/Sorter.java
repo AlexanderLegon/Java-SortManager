@@ -1,4 +1,4 @@
-package com.sparta.alexanderlegon.SortManager.Interfaces;
+package com.sparta.alexanderlegon.SortManager.interfaces;
 
 public interface Sorter {
 

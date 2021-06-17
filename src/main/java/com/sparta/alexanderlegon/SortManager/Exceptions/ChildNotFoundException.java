@@ -1,4 +1,4 @@
-package com.sparta.alexanderlegon.SortManager.Exceptions;
+package com.sparta.alexanderlegon.SortManager.exceptions;
 
 public class ChildNotFoundException extends Exception{
     public ChildNotFoundException(String s) {

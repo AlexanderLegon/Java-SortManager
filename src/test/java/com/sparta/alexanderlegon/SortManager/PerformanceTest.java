@@ -1,10 +1,10 @@
 package com.sparta.alexanderlegon.SortManager;
 
-import com.sparta.alexanderlegon.SortManager.Generics.GenericBubbleSort;
-import com.sparta.alexanderlegon.SortManager.Printer.Printer;
-import com.sparta.alexanderlegon.SortManager.Sorters.BubbleSort;
-import com.sparta.alexanderlegon.SortManager.Sorters.MergeSort;
-import com.sparta.alexanderlegon.SortManager.Sorters.MainBinaryTree;
+import com.sparta.alexanderlegon.SortManager.generics.GenericBubbleSort;
+import com.sparta.alexanderlegon.SortManager.printer.Printer;
+import com.sparta.alexanderlegon.SortManager.sorters.BubbleSort;
+import com.sparta.alexanderlegon.SortManager.sorters.MergeSort;
+import com.sparta.alexanderlegon.SortManager.sorters.MainBinaryTree;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

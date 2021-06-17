@@ -1,8 +1,8 @@
 package com.sparta.alexanderlegon.SortManager;
 
-import com.sparta.alexanderlegon.SortManager.Generics.GenericBubbleSort;
-import com.sparta.alexanderlegon.SortManager.Sorters.BubbleSort;
-import com.sparta.alexanderlegon.SortManager.Sorters.MergeSort;
+import com.sparta.alexanderlegon.SortManager.generics.GenericBubbleSort;
+import com.sparta.alexanderlegon.SortManager.sorters.BubbleSort;
+import com.sparta.alexanderlegon.SortManager.sorters.MergeSort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

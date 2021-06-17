@@ -1,6 +1,6 @@
-package com.sparta.alexanderlegon.SortManager.Sorters;
-import com.sparta.alexanderlegon.SortManager.Interfaces.Sorter;
-import com.sparta.alexanderlegon.SortManager.Printer.Printer;
+package com.sparta.alexanderlegon.SortManager.sorters;
+import com.sparta.alexanderlegon.SortManager.interfaces.Sorter;
+import com.sparta.alexanderlegon.SortManager.printer.Printer;
 
 public class BubbleSort implements Sorter  {
 

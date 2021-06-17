@@ -1,7 +1,7 @@
-package com.sparta.alexanderlegon.SortManager.Sorters;
+package com.sparta.alexanderlegon.SortManager.sorters;
 
 
-import com.sparta.alexanderlegon.SortManager.Interfaces.Sorter;
+import com.sparta.alexanderlegon.SortManager.interfaces.Sorter;
 
 public class MergeSort implements Sorter {
 

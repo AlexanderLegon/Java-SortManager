@@ -1,4 +1,4 @@
-package com.sparta.alexanderlegon.SortManager.Printer;
+package com.sparta.alexanderlegon.SortManager.printer;
 
 public class Printer {
     public static void print(String words) {

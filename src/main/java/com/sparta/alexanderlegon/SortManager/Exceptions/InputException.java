@@ -1,4 +1,4 @@
-package com.sparta.alexanderlegon.SortManager.Exceptions;
+package com.sparta.alexanderlegon.SortManager.exceptions;
 
 public class InputException extends Exception{
     public InputException(String s) {

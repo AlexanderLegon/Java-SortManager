@@ -1,4 +1,4 @@
-package com.sparta.alexanderlegon.SortManager.Generics;
+package com.sparta.alexanderlegon.SortManager.generics;
 
 public class GenericBubbleSort <T extends Comparable<? super T>>  {
 
