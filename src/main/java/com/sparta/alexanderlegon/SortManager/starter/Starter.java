@@ -1,9 +1,10 @@
-package com.sparta.alexanderlegon.SortManager;
+package com.sparta.alexanderlegon.SortManager.starter;
 
+import com.sparta.alexanderlegon.SortManager.factory.SortFactory;
 import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
 import com.sparta.alexanderlegon.SortManager.interfaces.BinaryTree;
 import com.sparta.alexanderlegon.SortManager.printer.Printer;
-import com.sparta.alexanderlegon.SortManager.generics.GenericBubbleSort;
+import com.sparta.alexanderlegon.SortManager.util.arrayToSort;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -14,7 +15,7 @@ static long end;
 
     public static void start() throws InputException {
         SortFactory sF = new SortFactory();
-        int[] toSort = getArrayToSort.getArray();
+        int[] toSort = arrayToSort.getArray();
         Scanner input = new Scanner(System.in);
         Printer.print("Press 1 for bubbleSort, Press 2 for MergeSort, Press 3 for Generic BubbleSort, Press 4 for Binary Tree");
         int whatSorter = input.nextInt();
@@ -42,8 +43,8 @@ static long end;
 
                 while(i == 1){
                 Scanner binaryIn = new Scanner(System.in);
-                Printer.print("Press 1 for AscSort, Press 2 for DescSort, Press 3 to addValue , Press 4 to find root," +
-                        " Press 5 to find a value, Press 6 to find number of elements, Press 7 to quit");
+                Printer.print("Press 1 to Ascending Sort \nPress 2 to Descending Sort \nPress 3 to Add a new value \nPress 4 to Find root value \n" +
+                        "Press 5 to Find if a value is present \nPress 6 to Find total number of elements\nPress 7 to Quit"); //add some \n for new line
                 int binaryInput = binaryIn.nextInt();
 
                     if(binaryInput == 1){

@@ -1,4 +1,4 @@
-package com.sparta.alexanderlegon.SortManager;
+package com.sparta.alexanderlegon.SortManager.util;
 
 import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
 import com.sparta.alexanderlegon.SortManager.printer.Printer;
@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class getArrayToSort {
+public class arrayToSort {
 
     public static int[] getArray() throws InputException{
 

@@ -5,7 +5,7 @@ import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
 import com.sparta.alexanderlegon.SortManager.interfaces.BinaryTree;
 import com.sparta.alexanderlegon.SortManager.printer.Printer;
 
-public class MainBinaryTree implements BinaryTree {
+public class BinaryTreeImplementation implements BinaryTree {
 
     public static class Node {
 

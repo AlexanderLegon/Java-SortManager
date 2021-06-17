@@ -1,4 +1,4 @@
-package com.sparta.alexanderlegon.SortManager;
+package com.sparta.alexanderlegon.SortManager.starter;
 
 import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
 import com.sparta.alexanderlegon.SortManager.printer.Printer;

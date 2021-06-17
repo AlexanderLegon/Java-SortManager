@@ -1,11 +1,11 @@
-package com.sparta.alexanderlegon.SortManager;
+package com.sparta.alexanderlegon.SortManager.factory;
 
 import com.sparta.alexanderlegon.SortManager.exceptions.InputException;
 import com.sparta.alexanderlegon.SortManager.generics.GenericBubbleSort;
 import com.sparta.alexanderlegon.SortManager.interfaces.BinaryTree;
 import com.sparta.alexanderlegon.SortManager.interfaces.Sorter;
+import com.sparta.alexanderlegon.SortManager.sorters.BinaryTreeImplementation;
 import com.sparta.alexanderlegon.SortManager.sorters.BubbleSort;
-import com.sparta.alexanderlegon.SortManager.sorters.MainBinaryTree;
 import com.sparta.alexanderlegon.SortManager.sorters.MergeSort;
 
 public class SortFactory {
@@ -14,12 +14,12 @@ public class SortFactory {
 
         switch (whatSorter) {
             case 1:
-                BubbleSort bS = new BubbleSort();
-                return bS;
+                BubbleSort bubbleSort = new BubbleSort();
+                return bubbleSort;
 
             case 2:
-                MergeSort mS = new MergeSort();
-                return mS;
+                MergeSort mergeSort = new MergeSort();
+                return mergeSort;
 
             default:
                throw new InputException("Input one of the options shown next time");
@@ -28,14 +28,14 @@ public class SortFactory {
 
     public static GenericBubbleSort getGeneric() {
 
-        GenericBubbleSort gBT = new GenericBubbleSort();
-        return gBT;
+        GenericBubbleSort genericBubbleSort = new GenericBubbleSort();
+        return genericBubbleSort;
     }
 
     public static BinaryTree getBinary() {
 
-        MainBinaryTree bT = new MainBinaryTree();
-                return bT;
+        BinaryTreeImplementation binaryTree = new BinaryTreeImplementation();
+                return binaryTree;
     }
 
 }
